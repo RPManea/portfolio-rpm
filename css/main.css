@@ -1,0 +1,253 @@
+body {
+    overflow-x: hidden;
+}
+
+.bg-custom-2 {
+  background-image: linear-gradient(15deg, #001d3d 0%, #1b263b 100%);
+}
+.bg-custom-2 a{
+    color: white !important;
+    font-weight: bold;
+}
+
+
+#ribbon{
+    background-color: #001d3d;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(0, 0, 0, 0.5) 25px, rgba(32, 26, 26, 0.5) 40px) !important;
+    color: white;
+}
+
+
+#ribbon::after{
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px;
+}
+#presentation{
+    background-color: #1b263b;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.carousel-indicators [data-bs-target] {
+    position: relative;
+    width: 60px;
+    height: 10px;
+    border: none;
+    border-radius: 24px;
+  }
+
+#carouselButtons {
+    margin-left: 100px;
+    position: absolute;
+    bottom: 0px;
+}
+
+#separator-ribbon{
+    display: block;
+    width: 100%;    
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+#separator-ribbon .content{
+    width: 150%;
+    height: 100px;
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+#mainSlider{
+    background-color: #003566;
+    color: white;
+    
+}
+#mainSlider a{
+    text-decoration: none;
+    color: white;
+}
+
+#mainSlider::after{
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px;
+}
+
+#main-content{
+    background-color: #252A2E;
+    margin-top: -20px;
+}
+
+
+.curriculum{
+    background-color: #003566;
+    color: #fff;
+    padding: 50px 20px;
+    margin-top: -20px;
+}
+.curriculum .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.curriculum h2{
+    font-size: 48px;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.curriculum .fila{
+    display: flex;
+    justify-content: space-between;
+}
+.curriculum .fila .col{
+    width: 49%;
+    padding: 0 20px;
+}
+.curriculum .fila .col h3{
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+.curriculum .fila .izquierda{
+    border-right: 2px solid #252A2E;
+}
+.curriculum .fila .derecha{
+    border-left: 2px solid #252A2E;
+}
+.curriculum .fila .item{
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #252A2E;
+    position: relative;
+}
+.curriculum .fila h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.curriculum .fila .casa{
+    color: #2a6f97;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+.curriculum .fila .fecha{
+    display: block;
+    color: #2a6f97;
+    margin-bottom: 10px;
+}
+.curriculum .fila p{
+    line-height: 24px;
+}
+.curriculum .fila .conectori{
+    height: 2px;
+    background-color: #2a6f97;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    right: -47px;
+    z-index: 5;
+}
+.curriculum .fila .conectori .circuloi{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #2a6f97;
+    float: right;
+    position: relative;
+    bottom: 4px;
+}
+.curriculum .fila .conectord{
+    height: 2px;
+    background-color: #2a6f97;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    left: -47px;
+    z-index: 5;
+}
+.curriculum .fila .conectord .circulod{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #2a6f97;
+    float: left;
+    position: relative;
+    bottom: 4px;
+}
+
+.container-skills{
+    margin-top: -20px;
+    background-color:  #003566;
+}
+
+.container-skills h3{
+    text-align: center;
+    color: #fff;
+}
+
+.container-skills img{
+    margin: auto;
+    display: block;
+    width: 50px;
+    height: 60px;
+}
+
+.header{
+    text-align: center;
+    color: #fff;
+    padding: 1rem;;
+    position: relative;
+}
+
+.header:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 100px;
+    background-color: #2a6f97;
+}
+
+
+#form-contact{
+    margin-top: -20px;
+    background-color: #003566;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    gap: 1rem;
+}
+
+input,select,textarea{
+    padding: 1.4rem;
+    border: 1.5px solid black;
+}
+
+#button-form {
+    width: 8rem;
+    padding: 1.4rem;
+    cursor: pointer;
+    color: white;
+    background:  #001d3d;
+}
