@@ -1,6 +1,9 @@
 body {
     overflow-x: hidden;
+    width: 100%;
 }
+
+
 
 .bg-custom-2 {
   background-image: linear-gradient(15deg, #001d3d 0%, #1b263b 100%);
@@ -250,4 +253,10 @@ input,select,textarea{
     cursor: pointer;
     color: white;
     background:  #001d3d;
+    border-radius: 10px;
+    text-decoration: bold;
+}
+
+input, textarea {
+    border-radius: 10px;
 }
